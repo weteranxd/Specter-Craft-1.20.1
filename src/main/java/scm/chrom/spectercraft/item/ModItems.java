@@ -12,11 +12,13 @@ import net.minecraft.util.Identifier;
 
 
 public class ModItems {
-
-    public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
-
+    //Itemy (Skopiuj by dodać nowy):
+    public static final Item SPECTER_INGOT = registerItem("specter_ingot", new Item(new FabricItemSettings()));
+    public static final Item RAW_SOUL = registerItem("raw_soul", new Item(new FabricItemSettings()));
+    //===================================================================================================
     private static void addItemsToIgredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(RUBY);
+        entries.add(SPECTER_INGOT);
+        entries.add(RAW_SOUL);
     }
 
     private static Item registerItem(String name, Item item){

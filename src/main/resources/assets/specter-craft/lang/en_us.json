@@ -1,3 +1,5 @@
 {
-  "item.spectercraft.ruby": "Ruby"
+  "item.specter-craft.specter_ingot": "Specter Ingot",
+  "item.specter-craft.raw_soul": "Raw Soul",
+  "itemgroup.specter": "SpecterCraft Group"
 }
