@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import scm.chrom.spectercraft.item.ModItems;
 
 public class SpecterCraft implements ModInitializer {
 	public static final String MOD_ID = "specter-craft";
@@ -15,6 +16,7 @@ public class SpecterCraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
