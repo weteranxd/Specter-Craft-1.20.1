@@ -12,10 +12,13 @@ import scm.chrom.spectercraft.SpecterCraft;
 public class ModItemGroups {
 
     public static final ItemGroup SPECTER_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(SpecterCraft.MOD_ID, "Specter"),
+            new Identifier(SpecterCraft.MOD_ID, "specter"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.specter"))
                     .icon(() -> new ItemStack(ModItems.SPECTER_INGOT)).entries((displayContext, entries) -> {
-
+                        // Skopiuj i wklej by dodać do zakładki moda!
+                        entries.add(ModItems.SPECTER_INGOT);
+                        entries.add(ModItems.RAW_SOUL);
+                        //=============================================================
                     }).build());
 
     public static void registerItemsGroups() {

@@ -15,10 +15,16 @@ public class ModItems {
     //Itemy (Skopiuj by dodać nowy):
     public static final Item SPECTER_INGOT = registerItem("specter_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_SOUL = registerItem("raw_soul", new Item(new FabricItemSettings()));
+    public static final Item ENERGY_ORB = registerItem("energy_orb", new Item(new FabricItemSettings()));
+    public static final Item SPECTER_SHOVEL = registerItem("specter_shovel", new Item(new FabricItemSettings()));
+    public static final Item SOUL = registerItem("soul", new Item(new FabricItemSettings()));
     //===================================================================================================
     private static void addItemsToIgredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(SPECTER_INGOT);
         entries.add(RAW_SOUL);
+        entries.add(ENERGY_ORB);
+        entries.add(SPECTER_SHOVEL);
+        entries.add(SOUL);
     }
 
     private static Item registerItem(String name, Item item){
