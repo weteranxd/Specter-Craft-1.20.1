@@ -3,6 +3,7 @@ package scm.chrom.spectercraft.block;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -20,6 +21,10 @@ public class ModBlocks {
                     .strength(1F)
                     .requiresTool()
                     .sounds(BlockSoundGroup.MOSS_BLOCK)
+                    .luminance(state -> 1)
+                    .mapColor(MapColor.LIME)
+                    .velocityMultiplier(0.4F)
+                    .jumpVelocityMultiplier(0.5F)
             ));
 
     private static Block registerBlock(String name, Block block) {
