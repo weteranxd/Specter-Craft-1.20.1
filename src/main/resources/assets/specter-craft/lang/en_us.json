@@ -4,5 +4,7 @@
   "item.specter-craft.energy_orb": "Energy Orb",
   "item.specter-craft.specter_shovel": "Specter Shovel",
   "item.specter-craft.soul": "Soul",
-  "itemgroup.specter": "SpecterCraft Group"
+  "itemgroup.specter": "SpecterCraft Group",
+
+  "block.specter-craft.acid": "Acid Block"
 }

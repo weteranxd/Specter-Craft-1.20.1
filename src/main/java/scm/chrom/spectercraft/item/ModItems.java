@@ -23,8 +23,8 @@ public class ModItems {
         entries.add(SPECTER_INGOT);
         entries.add(RAW_SOUL);
         entries.add(ENERGY_ORB);
-        entries.add(SPECTER_SHOVEL);
         entries.add(SOUL);
+
     }
 
     private static Item registerItem(String name, Item item){

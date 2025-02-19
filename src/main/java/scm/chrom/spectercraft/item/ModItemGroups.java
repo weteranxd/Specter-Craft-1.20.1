@@ -18,6 +18,9 @@ public class ModItemGroups {
                         // Skopiuj i wklej by dodać do zakładki moda!
                         entries.add(ModItems.SPECTER_INGOT);
                         entries.add(ModItems.RAW_SOUL);
+                        entries.add(ModItems.ENERGY_ORB);
+                        entries.add(ModItems.SPECTER_SHOVEL);
+                        entries.add(ModItems.SOUL);
                         //=============================================================
                     }).build());
 
