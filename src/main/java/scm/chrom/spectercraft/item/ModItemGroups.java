@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import scm.chrom.spectercraft.SpecterCraft;
+import scm.chrom.spectercraft.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -21,6 +22,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ENERGY_ORB);
                         entries.add(ModItems.SPECTER_SHOVEL);
                         entries.add(ModItems.SOUL);
+                        entries.add(ModBlocks.ACID);
+                        entries.add(ModBlocks.ERROR_BLOCK);
                         //=============================================================
                     }).build());
 

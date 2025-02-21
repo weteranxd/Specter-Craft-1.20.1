@@ -18,13 +18,17 @@ public class ModBlocks {
 
     public static final Block ACID = registerBlock("acid",
             new Block(AbstractBlock.Settings.create()
-                    .strength(1F)
+                    .strength(1.5F,1F)
                     .requiresTool()
                     .sounds(BlockSoundGroup.MOSS_BLOCK)
                     .luminance(state -> 1)
                     .mapColor(MapColor.LIME)
                     .velocityMultiplier(0.4F)
                     .jumpVelocityMultiplier(0.5F)
+            ));
+    public static final Block ERROR_BLOCK = registerBlock("error_block",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(1.5F,1F)
             ));
 
     private static Block registerBlock(String name, Block block) {
@@ -41,6 +45,7 @@ public class ModBlocks {
         SpecterCraft.LOGGER.info("Registering Mod Blocks for" + SpecterCraft.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.ACID);
+            entries.add(ModBlocks.ERROR_BLOCK);
         });
     }
 }

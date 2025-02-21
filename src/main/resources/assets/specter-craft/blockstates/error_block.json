@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "specter-craft:block/error_block"
+    }
+  }
+}
